@@ -1,0 +1,329 @@
+{
+  "contractName": "IExchangeV2",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "assetType",
+          "type": "bytes4"
+        },
+        {
+          "internalType": "address",
+          "name": "matcher",
+          "type": "address"
+        }
+      ],
+      "name": "setAssetMatcher",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"assetType\",\"type\":\"bytes4\"},{\"internalType\":\"address\",\"name\":\"matcher\",\"type\":\"address\"}],\"name\":\"setAssetMatcher\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IExchangeV2.sol\":\"IExchangeV2\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IExchangeV2.sol\":{\"keccak256\":\"0x5b15c61605bd5b0414f5e4bce3fe23ac8f1da8916b37368fbfc7773299850487\",\"urls\":[\"bzz-raw://ce2f782103ca53732524476db3f3c1dddd8d2f0d0081da88f5fef8cdfca5ff35\",\"dweb:/ipfs/Qmf8VHQXxL9fieyiykJLzcFfnkpP8n4TFhFdu9va5gjpyx\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060d18061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063b39deb4614602d575b600080fd5b609560048036036040811015604157600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506097565b005b505056fea264697066735822122040beee91ab57603ec84e11ece99469209ca4c512feabeb1b974c557c158afb2264736f6c63430007060033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063b39deb4614602d575b600080fd5b609560048036036040811015604157600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506097565b005b505056fea264697066735822122040beee91ab57603ec84e11ece99469209ca4c512feabeb1b974c557c158afb2264736f6c63430007060033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "60:112:6:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "60:112:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;88:81;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o",
+  "source": "//SPDX-LICENSE-IDENTIFIER: MIT\r\n\r\npragma solidity 0.7.6;\r\n\r\ncontract IExchangeV2 {\r\n    function setAssetMatcher(bytes4 assetType, address matcher) external {\r\n        }\r\n}",
+  "sourcePath": "C:\\Users\\omrel\\Desktop\\BalanceNetworkNFT-TotalContracts\\Matches\\contracts\\IExchangeV2.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IExchangeV2.sol",
+    "exportedSymbols": {
+      "IExchangeV2": [
+        569
+      ]
+    },
+    "id": 570,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 560,
+        "literals": [
+          "solidity",
+          "0.7",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "34:22:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 569,
+        "linearizedBaseContracts": [
+          569
+        ],
+        "name": "IExchangeV2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 567,
+              "nodeType": "Block",
+              "src": "157:12:6",
+              "statements": []
+            },
+            "functionSelector": "b39deb46",
+            "id": 568,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setAssetMatcher",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 565,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 562,
+                  "mutability": "mutable",
+                  "name": "assetType",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 568,
+                  "src": "113:16:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 561,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "113:6:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 564,
+                  "mutability": "mutable",
+                  "name": "matcher",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 568,
+                  "src": "131:15:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 563,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "131:7:6",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "112:35:6"
+            },
+            "returnParameters": {
+              "id": 566,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "157:0:6"
+            },
+            "scope": 569,
+            "src": "88:81:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 570,
+        "src": "60:112:6"
+      }
+    ],
+    "src": "34:138:6"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/IExchangeV2.sol",
+      "exportedSymbols": {
+        "IExchangeV2": [
+          569
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.7",
+            ".6"
+          ]
+        },
+        "id": 560,
+        "name": "PragmaDirective",
+        "src": "34:22:6"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            569
+          ],
+          "name": "IExchangeV2",
+          "scope": 570
+        },
+        "children": [
+          {
+            "attributes": {
+              "functionSelector": "b39deb46",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "setAssetMatcher",
+              "scope": 569,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "assetType",
+                      "scope": 568,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes4",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes4",
+                          "type": "bytes4"
+                        },
+                        "id": 561,
+                        "name": "ElementaryTypeName",
+                        "src": "113:6:6"
+                      }
+                    ],
+                    "id": 562,
+                    "name": "VariableDeclaration",
+                    "src": "113:16:6"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "matcher",
+                      "scope": 568,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 563,
+                        "name": "ElementaryTypeName",
+                        "src": "131:7:6"
+                      }
+                    ],
+                    "id": 564,
+                    "name": "VariableDeclaration",
+                    "src": "131:15:6"
+                  }
+                ],
+                "id": 565,
+                "name": "ParameterList",
+                "src": "112:35:6"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 566,
+                "name": "ParameterList",
+                "src": "157:0:6"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 567,
+                "name": "Block",
+                "src": "157:12:6"
+              }
+            ],
+            "id": 568,
+            "name": "FunctionDefinition",
+            "src": "88:81:6"
+          }
+        ],
+        "id": 569,
+        "name": "ContractDefinition",
+        "src": "60:112:6"
+      }
+    ],
+    "id": 570,
+    "name": "SourceUnit",
+    "src": "34:138:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.6+commit.7338295f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2022-12-29T13:52:56.169Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

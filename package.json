@@ -1,0 +1,16 @@
+{
+  "name": "balancenetworkmacthes",
+  "version": "1.0.0",
+  "description": "Balance Network NFT-MarketPlace CustomMatchesContract",
+  "main": "truffle.config.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "@cooller458",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@rarible/exchange-interfaces": "^0.4.0",
+    "@rarible/lazy-mint": "^0.5.5"
+  }
+}
